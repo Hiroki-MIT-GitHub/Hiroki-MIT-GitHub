@@ -9,8 +9,8 @@ class PostController extends Controller
 {
 	    public function index(Post $post)
 		        {
-				        return view('posts/show')->with(['posts' => $post]);  
-					    }
+				        return view('index')->with(['posts' => $post->get()]);  
+		        }
 }
 ?>
 
