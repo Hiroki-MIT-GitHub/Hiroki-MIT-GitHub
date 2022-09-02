@@ -8,6 +8,16 @@
     </head>
     <body>
         <h1>Blog Name</h1>
+<<<<<<< HEAD
+        <div class='posts'>
+            @foreach ($posts as $post)
+                <div class='post'>
+                    <h2 class='title'>{{ $post->title }}</h2>
+                    <p class='body'>{{ $post->body }}</p>
+                </div>
+            @endforeach
+        </div>
+=======
 	<div class='posts'>
 	@foreach ($posts as $post)
                 <div class='post'>
@@ -19,5 +29,6 @@
 	<div class = 'paginate'>
 	    {{ $posts->links() }}
 	</div>
+>>>>>>> origin/master
     </body>
 </html>
