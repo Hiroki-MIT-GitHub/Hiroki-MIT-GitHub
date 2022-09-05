@@ -21,5 +21,3 @@
            {{ $posts->links() }}
     </body>
 </html>
-
-

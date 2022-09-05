@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Category;
 use App\Post;
 use App\Http\Requests\PostRequest;
@@ -19,4 +20,5 @@ class PostController extends Controller
 		return view('posts/show')->with(['post' => $post]);
 	}
 }
+?>
 
