@@ -11,6 +11,7 @@
     <body>
         <h1 class="title">
             {{ $post->title }}
+            <p class="edit">[<a href="/posts/{{ $post->id }}/edit">edit</a>]</p>
         </h1>
         <div class="content">
             <div class="content__post">
@@ -23,4 +24,3 @@
         </div>
     </body>
 </html>
-
